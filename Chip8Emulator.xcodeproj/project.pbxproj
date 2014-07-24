@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		586CA49C196B870700F1444E /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 586CA49B196B870700F1444E /* SDL2.framework */; };
+		587CF036195A64880042942B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 587CF035195A64880042942B /* main.cpp */; };
+		587CF038195A64880042942B /* Chip8Emulator.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 587CF037195A64880042942B /* Chip8Emulator.1 */; };
+		587CF03F195A65340042942B /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587CF03E195A65340042942B /* GLUT.framework */; };
+		587CF041195A653C0042942B /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587CF040195A653C0042942B /* OpenGL.framework */; };
+		587CF044195A66080042942B /* Chip8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 587CF042195A66080042942B /* Chip8.cpp */; };
+		58D1A1D9196E33C90055716F /* Graphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 58D1A1D7196E33C90055716F /* Graphics.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		587CF030195A64880042942B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				587CF038195A64880042942B /* Chip8Emulator.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		586CA49B196B870700F1444E /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		587CF032195A64880042942B /* Chip8Emulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Chip8Emulator; sourceTree = BUILT_PRODUCTS_DIR; };
+		587CF035195A64880042942B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		587CF037195A64880042942B /* Chip8Emulator.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Chip8Emulator.1; sourceTree = "<group>"; };
+		587CF03E195A65340042942B /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		587CF040195A653C0042942B /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		587CF042195A66080042942B /* Chip8.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Chip8.cpp; path = ../Chip8.cpp; sourceTree = "<group>"; };
+		587CF043195A66080042942B /* Chip8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Chip8.h; path = ../Chip8.h; sourceTree = "<group>"; };
+		58D1A1D7196E33C90055716F /* Graphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Graphics.cpp; sourceTree = "<group>"; };
+		58D1A1D8196E33C90055716F /* Graphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graphics.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		587CF02F195A64880042942B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587CF041195A653C0042942B /* OpenGL.framework in Frameworks */,
+				587CF03F195A65340042942B /* GLUT.framework in Frameworks */,
+				586CA49C196B870700F1444E /* SDL2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		587CF029195A64870042942B = {
+			isa = PBXGroup;
+			children = (
+				586CA49B196B870700F1444E /* SDL2.framework */,
+				587CF040195A653C0042942B /* OpenGL.framework */,
+				587CF03E195A65340042942B /* GLUT.framework */,
+				587CF034195A64880042942B /* Chip8Emulator */,
+				587CF033195A64880042942B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		587CF033195A64880042942B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				587CF032195A64880042942B /* Chip8Emulator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		587CF034195A64880042942B /* Chip8Emulator */ = {
+			isa = PBXGroup;
+			children = (
+				587CF042195A66080042942B /* Chip8.cpp */,
+				587CF043195A66080042942B /* Chip8.h */,
+				587CF035195A64880042942B /* main.cpp */,
+				587CF037195A64880042942B /* Chip8Emulator.1 */,
+				58D1A1D7196E33C90055716F /* Graphics.cpp */,
+				58D1A1D8196E33C90055716F /* Graphics.h */,
+			);
+			path = Chip8Emulator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		587CF031195A64880042942B /* Chip8Emulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587CF03B195A64880042942B /* Build configuration list for PBXNativeTarget "Chip8Emulator" */;
+			buildPhases = (
+				587CF02E195A64880042942B /* Sources */,
+				587CF02F195A64880042942B /* Frameworks */,
+				587CF030195A64880042942B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chip8Emulator;
+			productName = Chip8Emulator;
+			productReference = 587CF032195A64880042942B /* Chip8Emulator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		587CF02A195A64880042942B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Thomas Miller";
+			};
+			buildConfigurationList = 587CF02D195A64880042942B /* Build configuration list for PBXProject "Chip8Emulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 587CF029195A64870042942B;
+			productRefGroup = 587CF033195A64880042942B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				587CF031195A64880042942B /* Chip8Emulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		587CF02E195A64880042942B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587CF036195A64880042942B /* main.cpp in Sources */,
+				587CF044195A66080042942B /* Chip8.cpp in Sources */,
+				58D1A1D9196E33C90055716F /* Graphics.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		587CF039195A64880042942B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		587CF03A195A64880042942B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		587CF03C195A64880042942B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		587CF03D195A64880042942B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		587CF02D195A64880042942B /* Build configuration list for PBXProject "Chip8Emulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587CF039195A64880042942B /* Debug */,
+				587CF03A195A64880042942B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587CF03B195A64880042942B /* Build configuration list for PBXNativeTarget "Chip8Emulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587CF03C195A64880042942B /* Debug */,
+				587CF03D195A64880042942B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 587CF02A195A64880042942B /* Project object */;
+}
