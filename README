@@ -1,0 +1,3 @@
+Open as an Xcode Project and change the string in main to run whatever ROM you want.
+I just wrote this in preparation to write and NES emulator, so it's not going to be
+very polished.
